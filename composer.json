@@ -1,0 +1,23 @@
+{
+    "name": "fingligroup/php-test",
+    "description": "PHP developer test",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "flankerspb/curl": "~1.0.0",
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

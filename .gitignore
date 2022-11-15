@@ -1,0 +1,24 @@
+# PROJECT FILES
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# TRASH
+Thumbs.db
+.DS_Store
+/_tmp
+*.log
+*.sql
+*.backup
+*.zip
+
+# composer
+/vendor
+composer.phar
+
+# app
+.htpasswd
+/public_html/robots.txt
+/public_html/.htaccess
